@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.TodoApp {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: grey;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}

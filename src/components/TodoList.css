@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.TodoList {
+	width: 300px;
+	font-size: 1.1em;
+}
+
+li {
+	padding: 5px 0;
+}
+
+a {
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 10px;
+}
