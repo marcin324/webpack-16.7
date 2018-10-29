@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.TodoForm {
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input {
+	height: 25px;
+}
+
+
+button {
+	height: 31px;
+	background: #0066CC;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #4C95DE;
+}

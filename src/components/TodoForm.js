@@ -1,32 +1,32 @@
 import React from 'react';
+import style from './TodoForm.css';
 
 class TodoForm extends React.Component {
 	
-	constructor(props){
-		super(props);
-		this.state = {
-			
-			newTask: ''
-		};
-	}
+  	constructor(props) {
+        super(props);
+        this.state = {
+            newTask: ''
+        };
+    }
 
-	addNewTask = (e) => return {
+	addNewTask (e) {
 		this.setState({newTask: e.target.value})
 	}
 
-	sendForm = (e) => return {
+	sendForm (e) {
 		e.preventDefault();
 		this.props.addTodo(this.state.newTask);
 	}
 	
-	render () {
+	render (){
 		return (
-			<form>
+			<form className={style.TodoForm}>
 				<input 
-					type='text',
-					value={this.state.newTask},
-					onChange={e => this.addNewTask} />
-				<button type='submit' onClick={e => this.sendForm}>Add task</button>
+					type='text'
+					value={this.state.newTask}
+					onChange={e => this.addNewTask(e)} />
+				<button type='submit' onClick={e => this.sendForm(e)}>add task</button>
 			</form>
 		);
 	}
