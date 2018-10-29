@@ -55,7 +55,7 @@ module.exports = (env) => {
 				}
 			]
 		},
-	}
 
-	plugins // notacja skrócona, zgodnie ze składnią ES6; to samo co - plugins: plugins
+		plugins // notacja skrócona, zgodnie ze składnią ES6; to samo co - plugins: plugins
+	}
 };
